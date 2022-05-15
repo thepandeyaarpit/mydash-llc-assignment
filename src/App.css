@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+
+
+.main_container{
+   display: flex;
+   width: 100%;
+ }
+ h2{
+   font-size: 20px;
+   padding: 20px 0;
+ }
+ .first_container{
+  width: 50%;
+   text-align: center;
+   background-color: #f6f6f6;
+ }
+ .side_img{
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 60%;
+  margin-top: 15%;
+ }
+ .main_para{
+   font-size: 13px;
+   font-weight: bold;
+ }
+ .subtitle{
+   font-size: 10px;
+   margin-top: -1%;
+ }
+ .sub_subtitle{
+   font-size: 10.5px;
+   margin-top: -2%;
+ }
+ .second_container{
+  width: 50%;
+   align-items: center;
+   justify-content: center;
+   border: 5px solid #fff;
+   padding: 30px 70px;
+   box-shadow: 1px 1px 5px 1px #fff;
+ }
+.input_box{
+  width: 80%;
+  height: 32px;
+  margin-top: -10px;
+  border-radius: 2px #555;
+}
+.p{
+  width: 100%;
+  font-size: 13px;
+}
+.check_button{
+  margin: 10px 0;
+}
+.check_text{
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.button{
+  height: 32px;
+  width: 50%;
+  background-color: rgb(42, 125, 163);
+  color: #fff;
+  border: none;
+  margin: 15px 0;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: rgb(30, 105, 139);
+}
+
+.error_validation{
+  color: rgb(241, 37, 37);
+  margin-top: -0.1%;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 768px) {
+  .main_container{
+    flex-direction: column;
+  }
+  .first_container{
+    width: 100%;
+  }
+  .second_container{
+    width: auto;
+  }
+  .input_box{
+    width: 100%;
+  }
+  }
+
+
+  /* Nav */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  .logout{
+    float: right;
+  }
